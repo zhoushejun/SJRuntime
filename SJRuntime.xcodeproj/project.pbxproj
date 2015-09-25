@@ -14,6 +14,7 @@
 		CF7E27E01BA30EF3002CF0D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7E27DF1BA30EF3002CF0D7 /* Images.xcassets */; };
 		CF7E27E31BA30EF3002CF0D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF7E27E11BA30EF3002CF0D7 /* LaunchScreen.xib */; };
 		CF7E27EF1BA30EF3002CF0D7 /* SJRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E27EE1BA30EF3002CF0D7 /* SJRuntimeTests.m */; };
+		CF7E27FA1BA30F86002CF0D7 /* UILabel+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E27F91BA30F86002CF0D7 /* UILabel+Associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CF7E27E81BA30EF3002CF0D7 /* SJRuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJRuntimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7E27ED1BA30EF3002CF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7E27EE1BA30EF3002CF0D7 /* SJRuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJRuntimeTests.m; sourceTree = "<group>"; };
+		CF7E27F81BA30F86002CF0D7 /* UILabel+Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Associate.h"; sourceTree = "<group>"; };
+		CF7E27F91BA30F86002CF0D7 /* UILabel+Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Associate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CF7E27D71BA30EF3002CF0D7 /* AppDelegate.m */,
 				CF7E27D91BA30EF3002CF0D7 /* ViewController.h */,
 				CF7E27DA1BA30EF3002CF0D7 /* ViewController.m */,
+				CF7E27F81BA30F86002CF0D7 /* UILabel+Associate.h */,
+				CF7E27F91BA30F86002CF0D7 /* UILabel+Associate.m */,
 				CF7E27DC1BA30EF3002CF0D7 /* Main.storyboard */,
 				CF7E27DF1BA30EF3002CF0D7 /* Images.xcassets */,
 				CF7E27E11BA30EF3002CF0D7 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				CF7E27DB1BA30EF3002CF0D7 /* ViewController.m in Sources */,
 				CF7E27D81BA30EF3002CF0D7 /* AppDelegate.m in Sources */,
 				CF7E27D51BA30EF3002CF0D7 /* main.m in Sources */,
+				CF7E27FA1BA30F86002CF0D7 /* UILabel+Associate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UILabel+Associate.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *lab = [[UILabel alloc] init];
+    lab.frame = CGRectMake(100, 100, 100, 28);
+    lab.associateColor = [UIColor orangeColor];
+    lab.backgroundColor = lab.associateColor;
+    lab.textAlignment = NSTextAlignmentCenter;
+    lab.textColor = [UIColor whiteColor];
+    lab.text = @"test";
+    [self.view addSubview:lab];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
